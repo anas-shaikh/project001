@@ -42,5 +42,5 @@ jobs:
    
     #now deploying react application on surge run: surge path of the code, URL name, then Token
     - name: Deploy to Surge
-      run: surge ./build Project001react.surge.sh ${{secrets.SURGE_TOKEN}}
+      run: surge ./build Project001react.surge.sh --token ${{secrets.SURGE_TOKEN}}
  
