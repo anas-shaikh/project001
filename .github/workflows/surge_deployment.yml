@@ -24,9 +24,9 @@ jobs:
 
     # Installing nodeJs with version 12
     - name: Install Node JS
-      run: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
-        node-version: 12 
+          node-version: 12
     # Now Installing Yarn
     - uses: borales/actions-yarn@v2.0.0
       with:
